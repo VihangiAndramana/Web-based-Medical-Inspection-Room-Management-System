@@ -1,0 +1,155 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: rgb(82, 81, 81);
+}
+
+.body {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(1, 5, 0, 0.726), rgba(0, 0, 0, 0.4)), url("../img/log/kdu.jpg");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.form-boxl {
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background-color: rgba(255, 255, 255, 0.884);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.form-boxr {
+    width: 380px;
+    height: 600px;
+    position: relative;
+    margin: 6% auto;
+    background-color: rgba(255, 255, 255, 0.884);
+    padding: 5px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    left: 110px;
+    top: 50px;
+    position: relative;
+    color: rgb(0, 0, 0);
+}
+
+.txtor {
+    top: 335px;
+    left: 180px;
+    position: relative;
+}
+
+.logo {
+    width: 150px;
+    height: 70px;
+    position: absolute;
+    top: -45px;
+    left: calc(50% - 78px);
+}
+
+.button-box {
+    width: 250px;
+    margin: 45px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #fa551462;
+    border-radius: 30px;
+}
+
+.toggle-btn {
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+
+#btn {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to right, #1410ff, #d9f6f7);
+    border-radius: 30px;
+    transition: .5s;
+}
+
+.input-group {
+    top: 160px;
+    left: 50px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+
+.input-groupr {
+    top: 110px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+
+.input-field {
+    width: 100%;
+    color: rgb(0, 0, 0);
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+.gen1 {
+    color: #999;
+    top: 10px;
+    position: relative;
+}
+
+.submit-btn {
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #1410ff, #d9f6f7);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+
+
+.check-box {
+    margin: 30px 10px 30px 0;
+}
+
+span {
+    color: rgb(75, 75, 75);
+    font-size: 12px;
+    bottom: 65px;
+    position: absolute;
+}
+
+#RegL {
+    left: 450px;
+}
+
+#RegS {
+    left: 50px;
+}
